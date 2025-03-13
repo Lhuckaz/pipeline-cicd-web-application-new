@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.3](https://github.com/Lhuckaz/pipeline-cicd-web-application-new/compare/v1.2.2...v1.2.3) (2025-03-13)
+
+
+### Bug Fixes
+
+* test if condition ([ea7462f](https://github.com/Lhuckaz/pipeline-cicd-web-application-new/commit/ea7462f5150b43578201b0cee967a674b5c563dc))
+
 ## [1.2.2](https://github.com/Lhuckaz/pipeline-cicd-web-application-new/compare/v1.2.1...v1.2.2) (2025-03-13)
 
 
