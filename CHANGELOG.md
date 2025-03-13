@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/Lhuckaz/pipeline-cicd-web-application-new/compare/v1.1.1...v1.1.2) (2025-03-13)
+
+
+### Bug Fixes
+
+* add id to test ([387c563](https://github.com/Lhuckaz/pipeline-cicd-web-application-new/commit/387c5636a651d886055f1603c10ec47a0419f864))
+
 ## [1.1.1](https://github.com/Lhuckaz/pipeline-cicd-web-application-new/compare/v1.1.0...v1.1.1) (2025-03-13)
 
 
