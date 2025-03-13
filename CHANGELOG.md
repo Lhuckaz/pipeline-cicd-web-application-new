@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/Lhuckaz/pipeline-cicd-web-application-new/compare/v1.1.9...v1.2.0) (2025-03-13)
+
+
+### Features
+
+* add github pages to deploy ([e78e378](https://github.com/Lhuckaz/pipeline-cicd-web-application-new/commit/e78e378d2084d28ee6fe6f9c1b12896552178bef))
+
 ## [1.1.9](https://github.com/Lhuckaz/pipeline-cicd-web-application-new/compare/v1.1.8...v1.1.9) (2025-03-13)
 
 
