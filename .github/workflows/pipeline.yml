@@ -51,12 +51,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Download build artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: react-build
-          path: build-v${{ steps.release.outputs.tag_name }}.zip
-
       - name: Release Please
         id: release
         uses: googleapis/release-please-action@v4
@@ -66,6 +60,12 @@ jobs:
 
       - name: Debug
         run: ls -la
+
+      - name: Download build artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: react-build
+          path: build-v${{ steps.release.outputs.tag_name }}.zip
 
       - name: Upload Release Artifact
         if: ${{ steps.release.outputs.release_created }}
