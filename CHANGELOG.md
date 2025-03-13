@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.6](https://github.com/Lhuckaz/pipeline-cicd-web-application-new/compare/v1.2.5...v1.2.6) (2025-03-13)
+
+
+### Bug Fixes
+
+* change to npm ci ([d16a6b8](https://github.com/Lhuckaz/pipeline-cicd-web-application-new/commit/d16a6b8af799faff1eac7665629a363152b71c9c))
+
 ## [1.2.5](https://github.com/Lhuckaz/pipeline-cicd-web-application-new/compare/v1.2.4...v1.2.5) (2025-03-13)
 
 
