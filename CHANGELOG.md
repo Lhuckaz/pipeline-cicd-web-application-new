@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.2](https://github.com/Lhuckaz/pipeline-cicd-web-application-new/compare/v1.2.1...v1.2.2) (2025-03-13)
+
+
+### Bug Fixes
+
+* remove if from job deploy ([e19018a](https://github.com/Lhuckaz/pipeline-cicd-web-application-new/commit/e19018a039caace6c02f3f2a01840eabbf37c8b7))
+
 ## [1.2.1](https://github.com/Lhuckaz/pipeline-cicd-web-application-new/compare/v1.2.0...v1.2.1) (2025-03-13)
 
 
