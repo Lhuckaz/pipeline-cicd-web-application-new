@@ -55,7 +55,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: react-build
-          path: build-v${{ needs.ci.outputs.VERSION }}.zip
+          path: build-v${{ steps.release.outputs.tag_name }}.zip
 
       - name: Release Please
         id: release
