@@ -62,10 +62,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: react-build
-          path: build-v${{ steps.release.outputs.tag_name }}.zip
-
-      - name: Debug
-        run: ls -la
+          path: build-${{ steps.release.outputs.tag_name }}.zip
 
       - name: Upload Release Artifact
         if: ${{ steps.release.outputs.release_created }}
