@@ -72,4 +72,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh release upload ${{ steps.release.outputs.tag_name }} build-v${{ env.VERSION }}.zip
+          gh release upload ${{ steps.release.outputs.tag_name }} build-${{ steps.release.outputs.tag_name }}.zip
