@@ -64,6 +64,9 @@ jobs:
           release-type: node
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Debug
+        run: ls -la
+
       - name: Upload Release Artifact
         if: ${{ steps.release.outputs.release_created }}
         env:
