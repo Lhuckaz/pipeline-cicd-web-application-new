@@ -1,1 +1,1 @@
-CI=true npm test
+npx --no -- commitlint --edit $1
