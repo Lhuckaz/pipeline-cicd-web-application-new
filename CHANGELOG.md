@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.4](https://github.com/Lhuckaz/pipeline-cicd-web-application-new/compare/v1.2.3...v1.2.4) (2025-03-13)
+
+
+### Bug Fixes
+
+* edit readme ([30e1835](https://github.com/Lhuckaz/pipeline-cicd-web-application-new/commit/30e1835311e602e6ef58324b1dbd5c9414a7a505))
+* test ([32211c8](https://github.com/Lhuckaz/pipeline-cicd-web-application-new/commit/32211c84bdf39c28a88b5ab9daf2005dcc6228c4))
+
 ## [1.2.3](https://github.com/Lhuckaz/pipeline-cicd-web-application-new/compare/v1.2.2...v1.2.3) (2025-03-13)
 
 
