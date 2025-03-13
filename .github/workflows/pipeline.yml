@@ -1,9 +1,10 @@
 name: pipeline
 
 on:
-  push:
-    branches:
-      - main
+  workflow_run:
+    workflows: ["Release Please"]
+    types:
+      - completed
 
 permissions:
   contents: write
@@ -56,4 +57,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh release upload ${{ steps.release.outputs.tag_name }} ./artifact/some-build-artifact.zip
+          gh release upload ${{ steps.release.outputs.tag_name }} build-v${{ env.VERSION }}.zip

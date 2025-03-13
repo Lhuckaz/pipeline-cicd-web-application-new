@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/Lhuckaz/pipeline-cicd-web-application-new/compare/v1.0.0...v1.1.0) (2025-03-13)
+
+
+### Features
+
+* new pipeline ([c16e211](https://github.com/Lhuckaz/pipeline-cicd-web-application-new/commit/c16e2116dd0e46a9c50721d510c886767f2b8f87))
+
 ## 1.0.0 (2025-03-13)
 
 
