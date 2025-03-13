@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.6](https://github.com/Lhuckaz/pipeline-cicd-web-application-new/compare/v1.1.5...v1.1.6) (2025-03-13)
+
+
+### Bug Fixes
+
+* build downloaded ([baa987e](https://github.com/Lhuckaz/pipeline-cicd-web-application-new/commit/baa987e887dfec5c7b676d81e465579eb5b1903c))
+* order of pipeline ([80f1e5f](https://github.com/Lhuckaz/pipeline-cicd-web-application-new/commit/80f1e5fee77ac142118f10ba3f430d675a126f62))
+
 ## [1.1.5](https://github.com/Lhuckaz/pipeline-cicd-web-application-new/compare/v1.1.4...v1.1.5) (2025-03-13)
 
 
