@@ -1,6 +1,6 @@
 {
   "name": "pipeline-cicd-web-application",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
