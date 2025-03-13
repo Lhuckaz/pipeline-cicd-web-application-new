@@ -58,14 +58,14 @@ jobs:
           release-type: node
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Debug
-        run: ls -la
-
       - name: Download build artifact
         uses: actions/download-artifact@v4
         with:
           name: react-build
           path: build-v${{ steps.release.outputs.tag_name }}.zip
+
+      - name: Debug
+        run: ls -la
 
       - name: Upload Release Artifact
         if: ${{ steps.release.outputs.release_created }}
