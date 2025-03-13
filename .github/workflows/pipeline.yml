@@ -47,6 +47,8 @@ jobs:
   release:
     runs-on: ubuntu-latest
     needs: ci
+    outputs:
+      run_next: ${{ steps.release.outputs.run_next }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -69,11 +71,13 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh release upload ${{ steps.release.outputs.tag_name }} build-${{ steps.release.outputs.tag_name }}.zip
+          echo "run_next=true" >> $GITHUB_OUTPUT
 
 
   deploy:
     runs-on: ubuntu-latest
     needs: release
+    if: contains(needs.release.outputs.run_next, 'true')
     environment: production
     steps:
       - name: Download build artifact
