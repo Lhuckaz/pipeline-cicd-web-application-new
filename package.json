@@ -18,7 +18,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "prepare": "husky"
+    "prepare": "husky",
+    "lint": "eslint src/*.js"
   },
   "eslintConfig": {
     "extends": [
@@ -41,6 +42,9 @@
   "devDependencies": {
     "@commitlint/cli": "^19.8.0",
     "@commitlint/config-conventional": "^19.8.0",
+    "eslint": "^8.57.1",
+    "eslint-plugin-react": "^7.37.4",
+    "globals": "^16.0.0",
     "husky": "^9.1.7"
   }
 }
