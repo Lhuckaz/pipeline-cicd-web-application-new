@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.9](https://github.com/Lhuckaz/pipeline-cicd-web-application-new/compare/v1.1.8...v1.1.9) (2025-03-13)
+
+
+### Bug Fixes
+
+* removing path from download artifact ([d168dec](https://github.com/Lhuckaz/pipeline-cicd-web-application-new/commit/d168dec475d800b27d33cb265de07cb1e54aeb56))
+
 ## [1.1.8](https://github.com/Lhuckaz/pipeline-cicd-web-application-new/compare/v1.1.7...v1.1.8) (2025-03-13)
 
 
