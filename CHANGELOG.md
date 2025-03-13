@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.8](https://github.com/Lhuckaz/pipeline-cicd-web-application-new/compare/v1.1.7...v1.1.8) (2025-03-13)
+
+
+### Bug Fixes
+
+* removing a v letter from artifact name ([95a61e3](https://github.com/Lhuckaz/pipeline-cicd-web-application-new/commit/95a61e3016a67c4743ae4bb3e095d0f69f3f9300))
+
 ## [1.1.7](https://github.com/Lhuckaz/pipeline-cicd-web-application-new/compare/v1.1.6...v1.1.7) (2025-03-13)
 
 
