@@ -1,6 +1,5 @@
 # Changelog
 
-
 ## [1.2.3](https://github.com/Lhuckaz/pipeline-cicd-web-application-new/compare/v1.2.2...v1.2.3) (2025-03-13)
 
 
