@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.5](https://github.com/Lhuckaz/pipeline-cicd-web-application-new/compare/v1.2.4...v1.2.5) (2025-03-13)
+
+
+### Bug Fixes
+
+* add linter ([14bbd89](https://github.com/Lhuckaz/pipeline-cicd-web-application-new/commit/14bbd896b6f8b86b499bbc59262fb347b30e2ab4))
+
 ## [1.2.4](https://github.com/Lhuckaz/pipeline-cicd-web-application-new/compare/v1.2.3...v1.2.4) (2025-03-13)
 
 
