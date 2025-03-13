@@ -35,8 +35,17 @@ jobs:
         id: package_version
         run: echo "VERSION=$(jq -r .version package.json)" >> $GITHUB_ENV
 
-      - name: Archive production artifacts
+      - name: Zip production artifacts
         run: zip -r build-v${{ env.VERSION }}.zip build
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: react-build
+          path: build-v${{ env.VERSION }}.zip
+
+      - id: set-output
+        run: echo "VERSION=$VERSION" >> $GITHUB_OUTPUT
 
   release:
     runs-on: ubuntu-latest
@@ -44,6 +53,12 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+
+      - name: Download build artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: react-build
+          path: build-v${{ needs.ci.outputs.VERSION }}.zip
 
       - name: Release Please
         id: release
