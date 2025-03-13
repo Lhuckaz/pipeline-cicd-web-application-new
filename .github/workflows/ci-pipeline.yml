@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   ci:
-    name: CI
+    name: ci
     runs-on: ubuntu-latest
     steps:
       - name: Set up Node.js
@@ -47,7 +47,7 @@ jobs:
           node-version: '20'
 
       - name: Create Release
-        uses: google-github-actions/release-please-action@v4
+        uses: googleapis/release-please-action@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           release-type: node
