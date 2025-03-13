@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.3](https://github.com/Lhuckaz/pipeline-cicd-web-application-new/compare/v1.1.2...v1.1.3) (2025-03-13)
+
+
+### Bug Fixes
+
+* Upload build folder ([3e629d8](https://github.com/Lhuckaz/pipeline-cicd-web-application-new/commit/3e629d8e3410c8c2b207a7b45ee0423bc3b7185b))
+
 ## [1.1.2](https://github.com/Lhuckaz/pipeline-cicd-web-application-new/compare/v1.1.1...v1.1.2) (2025-03-13)
 
 
